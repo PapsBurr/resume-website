@@ -19,17 +19,17 @@ export const metadata = {
 
 function Header() {
   return (
-    <header className="py-8 px-16 bg-gray-800">
+    <header className="py-8 px-16 bg-gray-600">
       <div>
-        <h1 className="my-8 font-bold text-6xl">Nathan's Résumé</h1>
+        <h1 className="my-8 mb-16 font-bold text-6xl text-white">Nathan's Résumé</h1>
       </div>
       <div>
         <nav className="flex justify-between">
-          <div className="bg-sky-800 text-white font-bold p-2 px-10 rounded-md">
-            <Link href="/">Home</Link>
+          <div>
+            <Link href="/" className="bg-sky-500 hover:bg-sky-400 text-white font-bold p-4 px-16 rounded-md">Home</Link>
           </div>
-          <div className="bg-sky-800 text-white font-bold p-2 px-10 rounded-md">
-            <Link href="/">Home</Link>
+          <div>
+            <Link href="/android" className="bg-sky-500 hover:bg-sky-400 text-white font-bold p-4 px-16 rounded-md">Android</Link>
           </div>
         </nav>
       </div>
