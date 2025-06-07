@@ -42,11 +42,11 @@ main {
 
 p {
   margin: 32px;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 hr {
-  margin: 32px 0px;
+  margin: 64px 0px;
 }
 
 .container-comp {
