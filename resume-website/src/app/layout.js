@@ -29,6 +29,9 @@ function Header() {
             <Link href="/" className="bg-sky-500 hover:bg-sky-400 text-white font-bold p-4 mx-4 px-16 rounded-md">Home</Link>
           </div>
           <div>
+            <Link href="/websites" className="bg-sky-500 hover:bg-sky-400 text-white font-bold p-4 mx-4 px-16 rounded-md">Websites</Link>
+          </div>
+          <div>
             <Link href="/android" className="bg-sky-500 hover:bg-sky-400 text-white font-bold p-4 mx-4 px-16 rounded-md">Android</Link>
           </div>
           <div>

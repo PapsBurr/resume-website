@@ -35,18 +35,21 @@ export default function Page() {
               <Image
                 className="rounded-[20px]"
                 src="/vacation-planner-login.jpg"
+                alt="An image of the vacation planner log in screen."
                 width={250}
                 height={500}
               />
               <Image
                 className="rounded-[20px]"
                 src="/vacation-planner-main.jpg"
+                alt="An image of the vacation planner main screen"
                 width={250}
                 height={500}
                />
                <Image
                 className="rounded-[20px]"
                 src="/vacation-planner-details.jpg"
+                alt="An image of the vacation planner details screen"
                 width={250}
                 height={500}
                />
@@ -62,12 +65,16 @@ export default function Page() {
             <h2>Lights out</h2>
             <p>
               This is the app I made to practice Android development. It's a simple game where if you 
-              tap on a tile it will invert the tile and the four adjacent tiles next to it.
+              tap on a tile it will invert the tile you tapped and the adjacent tiles. 
+              The goal of the game is to turn off all of the tiles. After you win, a toast saying congratulations 
+              is played at the bottom of the screen. At any point you can press the New Game button to randomize 
+              all the tiles.
             </p>
             <div className="flex justify-center">
               <Image
                 className="rounded-[20px]"
                 src="/lights-out.jpg"
+                alt="An image of the lights out game"
                 width={250}
                 height={500}
               />
@@ -77,6 +84,31 @@ export default function Page() {
               or change the color of the tiles.
             </p>
             <hr></hr>
+          </div>
+          <div>
+            <h2>Timer app</h2>
+            <p>
+              Below is an app that I made to act as a timer for your phone. The timer can be set using the scrollers 
+              in the middle of the screen to set how long the timer will go for. The top of the screen shows 
+              the amount of time remaining as a number as well as a progress bar. The buttons at the bottom control 
+              the timer and change depending on if the timer is running or not. For example, if the timer isn't 
+              running it will only show a button that says start.
+            </p>
+            <div className="flex justify-center">
+              <Image
+                className="rounded-[20px]"
+                src="/timer.jpg"
+                alt="An image of the timer app"
+                width={250}
+                height={500}
+              />
+            </div>
+            <hr></hr>
+            <h2>Plenty More!</h2>
+            <p>
+              There are a ton more projects I've done on Android and I'm not going to put them all here. 
+              The rest can be found on my GitHub linked at the top of the page.
+            </p>
           </div>
         </main>
       </div>
