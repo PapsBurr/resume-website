@@ -61,7 +61,7 @@ hr {
   grid-template-rows: auto auto auto;
   grid-template-areas:
     "header header header"
-    "blank main blank";
+    ". main .";
 }
 
 
