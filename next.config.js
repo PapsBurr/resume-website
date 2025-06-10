@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/resume-website",
   output: "export",
+  distDir: "dist",
+  images: {
+    unoptimized: true,
+  },
   reactStrictMode: true,
 };
 
