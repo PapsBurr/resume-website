@@ -34,21 +34,21 @@ export default function Page() {
             <div className="flex flex-row gap-16 justify-center">
               <Image
                 className="rounded-[20px]"
-                src="{ ${process.env.NEXT_PUBLIC_BASE_PATH}/vacation-planner-login.jpg }"
+                src="/resume-website/vacation-planner-login.jpg"
                 alt="An image of the vacation planner log in screen."
                 width={250}
                 height={500}
               />
               <Image
                 className="rounded-[20px]"
-                src="{ ${process.env.NEXT_PUBLIC_BASE_PATH}/vacation-planner-main.jpg }"
+                src="/resume-website/vacation-planner-main.jpg"
                 alt="An image of the vacation planner main screen"
                 width={250}
                 height={500}
                />
                <Image
                 className="rounded-[20px]"
-                src="{ ${process.env.NEXT_PUBLIC_BASE_PATH}/vacation-planner-details.jpg }"
+                src="/resume-website/vacation-planner-details.jpg"
                 alt="An image of the vacation planner details screen"
                 width={250}
                 height={500}
@@ -73,7 +73,7 @@ export default function Page() {
             <div className="flex justify-center">
               <Image
                 className="rounded-[20px]"
-                src="{ ${process.env.NEXT_PUBLIC_BASE_PATH}/lights-out.jpg }"
+                src="/resume-website/lights-out.jpg"
                 alt="An image of the lights out game"
                 width={250}
                 height={500}
@@ -97,7 +97,7 @@ export default function Page() {
             <div className="flex justify-center">
               <Image
                 className="rounded-[20px]"
-                src="{ ${process.env.NEXT_PUBLIC_BASE_PATH}/timer.jpg }"
+                src="/resume-website/timer.jpg"
                 alt="An image of the timer app"
                 width={250}
                 height={500}
