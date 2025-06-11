@@ -9,7 +9,8 @@ export default function Home() {
         <div></div>
         <main className="flex-auto flex-col justify-between p-32 bg-gray-100 text-black">
           <div>
-            <h1>Software Engineer</h1>
+            <h1 className="text-center">Nathan Pons</h1>
+            <h1 className="text-center m-6">Software Engineer</h1>
             <hr></hr>
             <h1>About Me</h1>
             <p>
