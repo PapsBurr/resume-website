@@ -9,6 +9,8 @@ export default function Home() {
         <div></div>
         <main className="flex-auto flex-col justify-between p-32 bg-gray-100 text-black">
           <div>
+            <h1>Software Engineer</h1>
+            <hr></hr>
             <h1>About Me</h1>
             <p>
               Hi! My name is Nathan Pons and this is a website I made as a
@@ -17,9 +19,7 @@ export default function Home() {
               am, as of writing this, 25 years old and have been working with
               tech essentially throughout all of my life. I have a lot of
               experience programming and working with a variety of programs like
-              unity, photoshop, blender, and whatever else I'm forgetting. I
-              know how to use google and solve my own problems... most of the
-              time.
+              unity, photoshop, blender, and a dozen other things I'm forgetting.
             </p>
             <hr></hr>
           </div>
@@ -48,13 +48,13 @@ export default function Home() {
               <li>Science</li>
               <li>Learning</li>
               <li>Art (Drawing / Painting / Designing)</li>
-              <li>Space (like rockets and such)</li>
-              <li>Puzzle Solving</li>
+              <li>Aerospace</li>
+              <li>Puzzle/Problem Solving</li>
               <li>Strategy</li>
             </ul>
-            <h3>Familiar Programming Languages</h3>
+            <h3>Programming Languages</h3>
             <ul className="list-disc m-8 text-xl">
-              <li>Java (Most Experience)</li>
+              <li>Java</li>
               <li>Python</li>
               <li>JavaScript</li>
               <li>TypeScript</li>
@@ -71,17 +71,17 @@ export default function Home() {
               deeply related to programming. Programming is all about creating a
               good experience for a user and meeting their needs, and art is one
               of the mediums to accomplish that. It especially shines through
-              GUI's and guiding a user through an application. Understanding
+              GUIs and guiding a user through an application. Understanding
               where a user is likely to search for something and, as a
               developer, being able to provide that thing for them where they
               want it.
             </p>
             <p>
-              It's also something I enjoy so I'm going to show a few
+              It's also something I enjoy so I'm going to show a couple
               things I've made:
             </p>
             <h3 className="text-center">
-              Griffin portrait, Digital, ~2021
+              Griffin, Digital, ~2021
             </h3>
             <div className="flex gap-16 justify-center my-8">
               <Image
@@ -93,7 +93,7 @@ export default function Home() {
               />
             </div>
             <h3 className="text-center">
-              Flower with a massive glare, Oil paints, ~2020
+              Flower with Dew, Oil paint, ~2020
             </h3>
             <div className="flex gap-16 justify-center my-8">
               <Image
@@ -110,8 +110,8 @@ export default function Home() {
             <h2>This Site</h2>
             <p>
               Built with JavaScript using Next.js, HTML, and Tailwind CSS. It is
-              currently only viewable on browser and is a disaster if viewed on
-              a phone. Also, I'm sure I made a bunch of grammatical errors
+              currently only viewable on browser and is not optimized for phones. 
+              Also, I'm sure I made a bunch of grammatical errors
               throughout the site. I'm trying to make this fast and as
               professional I can, but still fast.
             </p>

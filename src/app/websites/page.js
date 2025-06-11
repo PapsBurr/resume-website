@@ -152,7 +152,7 @@ export default function Page() {
               />
             </div>
             <p>
-              The last thing I did with this project is deploy it using Docker.
+              The last thing I did with this project is deploy it using Docker and AWS.
             </p>
             <hr></hr>
           </div>
