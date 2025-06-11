@@ -1,18 +1,25 @@
+"use client";
+
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <div className="container-comp bg-gray-300 min-h-screen">
+      <div className="container-comp bg-gradient-to-r from-slate-300 via-slate-400 to-slate-300 min-h-screen">
         <div></div>
         <main className="flex-auto flex-col justify-between p-32 bg-gray-100 text-black">
           <div>
-            <h1>About me</h1>
+            <h1>About Me</h1>
             <p>
-              Hi! My name is Nathan Pons and this is a website I made as a summary of my qualifications 
-              and projects I've made throughout the years. I am, as of writing this, 25 years old and 
-              have been working with tech essentially throughout all of my life. I have a lot of experience 
-              programming and working with a variety of programs like unity, photoshop, blender, and whatever 
-              else I'm forgetting.
+              Hi! My name is Nathan Pons and this is a website I made as a
+              summary of my qualifications and projects I've made throughout the
+              years (especially throughout my Software Engineering degree). I
+              am, as of writing this, 25 years old and have been working with
+              tech essentially throughout all of my life. I have a lot of
+              experience programming and working with a variety of programs like
+              unity, photoshop, blender, and whatever else I'm forgetting. I
+              know how to use google and solve my own problems... most of the
+              time.
             </p>
             <hr></hr>
           </div>
@@ -20,24 +27,96 @@ export default function Home() {
             <h2>Qualifications</h2>
             <h3>Western Governors University</h3>
             <div className="grid grid-cols-2">
-              <p>
-              B.S. Software Engineering
-              </p>
-              <p className="justify-end text-right">
-                May, 2025
-              </p>
+              <p className="underline">B.S. Software Engineering</p>
+              <p className="justify-end text-right">May, 2025</p>
+            </div>
+            <h3>Utah State Board of Education</h3>
+            <div className="grid grid-cols-2">
+              <p className="underline">GED - High school diploma</p>
+              <p className="justify-end text-right">Dec, 2022</p>
             </div>
             <h3>Certifications</h3>
+            <ul className="list-disc m-8 text-xl">
+              <li>AWS Certified Cloud Practitioner</li>
+              <li>CompTIA Project +</li>
+              <li>Axelos ITIL Foundations</li>
+              <li>Coursera Google IT Support</li>
+            </ul>
+            <h3>Skills / Hobbies / Interests</h3>
+            <ul className="list-disc m-8 text-xl">
+              <li>Programming</li>
+              <li>Science</li>
+              <li>Learning</li>
+              <li>Art (Drawing / Painting / Designing)</li>
+              <li>Space (like rockets and such)</li>
+              <li>Puzzle Solving</li>
+              <li>Strategy</li>
+            </ul>
+            <h3>Familiar Programming Languages</h3>
+            <ul className="list-disc m-8 text-xl">
+              <li>Java (Most Experience)</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>UML</li>
+            </ul>
+            <hr></hr>
+          </div>
+          <div>
+            <h2>Art</h2>
             <p>
-              <ul className="list-disc m-8">
-                <li>AWS Certified Cloud Practitioner</li>
-                <li>CompTIA Project +</li>
-                <li>Axelos ITIL Foundations</li>
-              </ul>
+              Art is something I've spent a lot of time doing and I feel it is
+              deeply related to programming. Programming is all about creating a
+              good experience for a user and meeting their needs, and art is one
+              of the mediums to accomplish that. It especially shines through
+              GUI's and guiding a user through an application. Understanding
+              where a user is likely to search for something and, as a
+              developer, being able to provide that thing for them where they
+              want it.
+            </p>
+            <p>
+              It's also something I enjoy so I'm going to show a few
+              things I've made:
+            </p>
+            <h3 className="text-center">
+              Griffin portrait, Digital, ~2021
+            </h3>
+            <div className="flex gap-16 justify-center my-8">
+              <Image
+                className="rounded-[20px] shadow-md/40"
+                src="/resume-website/digital-griffin.jpg"
+                alt="An image of the reservation hotel website."
+                width={500}
+                height={500}
+              />
+            </div>
+            <h3 className="text-center">
+              Flower with a massive glare, Oil paints, ~2020
+            </h3>
+            <div className="flex gap-16 justify-center my-8">
+              <Image
+                className="rounded-[20px] shadow-md/40"
+                src="/resume-website/painting-flower.jpg"
+                alt="An image of the reservation hotel website."
+                width={500}
+                height={500}
+              />
+            </div>
+            <hr></hr>
+          </div>
+          <div>
+            <h2>This Site</h2>
+            <p>
+              Built with JavaScript using Next.js, HTML, and Tailwind CSS. It is
+              currently only viewable on browser and is a disaster if viewed on
+              a phone. Also, I'm sure I made a bunch of grammatical errors
+              throughout the site. I'm trying to make this fast and as
+              professional I can, but still fast.
             </p>
             <hr></hr>
           </div>
-          
         </main>
       </div>
     </>

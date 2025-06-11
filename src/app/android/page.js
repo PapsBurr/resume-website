@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <>
-      <div className="container-comp bg-gray-300 min-h-screen">
+      <div className="container-comp bg-gradient-to-r from-slate-300 via-slate-400 to-slate-300 min-h-screen">
         <div></div>
         <main className="flex-auto flex-col justify-between p-32 bg-gray-100 text-black">
           <div>
@@ -19,11 +19,12 @@ export default function Page() {
           <div>
             <h2>Vacation Planner App</h2>
             <p>
-              This is the app I made for my B.S. Software Engineering Capstone
-              project.
+              Features a fullstack app. Uses a SQLite database with Java. Includes data validation, 
+              basic security, and search functionality.
             </p>
             <p>
-              It is a fairly simple planner app where information can be filled
+              This is the app I made for my B.S. Software Engineering Capstone
+              project. It is a planner app where information can be filled
               into fields to plan vacations. It utilizes a SQLite database using
               Room following the repository pattern to store all the information
               that the user stores within the app. It also includes an account
@@ -33,21 +34,21 @@ export default function Page() {
             </p>
             <div className="flex flex-row gap-16 justify-center">
               <Image
-                className="rounded-[20px]"
+                className="rounded-[20px] shadow-md"
                 src="/resume-website/vacation-planner-login.jpg"
                 alt="An image of the vacation planner log in screen."
                 width={250}
                 height={500}
               />
               <Image
-                className="rounded-[20px]"
+                className="rounded-[20px] shadow-md"
                 src="/resume-website/vacation-planner-main.jpg"
                 alt="An image of the vacation planner main screen"
                 width={250}
                 height={500}
                />
                <Image
-                className="rounded-[20px]"
+                className="rounded-[20px] shadow-md"
                 src="/resume-website/vacation-planner-details.jpg"
                 alt="An image of the vacation planner details screen"
                 width={250}
@@ -72,7 +73,7 @@ export default function Page() {
             </p>
             <div className="flex justify-center">
               <Image
-                className="rounded-[20px]"
+                className="rounded-[20px] shadow-md"
                 src="/resume-website/lights-out.jpg"
                 alt="An image of the lights out game"
                 width={250}
@@ -96,7 +97,7 @@ export default function Page() {
             </p>
             <div className="flex justify-center">
               <Image
-                className="rounded-[20px]"
+                className="rounded-[20px] shadow-md"
                 src="/resume-website/timer.jpg"
                 alt="An image of the timer app"
                 width={250}
