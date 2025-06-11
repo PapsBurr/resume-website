@@ -59,6 +59,8 @@ export default function Home() {
               <li>Python</li>
               <li>JavaScript</li>
               <li>TypeScript</li>
+              <li>MySQL</li>
+              <li>PostgreSQL</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>UML</li>
