@@ -27,12 +27,14 @@ export default function Page() {
               project. It is a planner app where information can be filled
               into fields to plan vacations. It utilizes a SQLite database using
               Room following the repository pattern to store all the information
-              that the user stores within the app. It also includes an account
-              system so that only those who know the username and password can
-              access the information relating to them. Multiple accounts can be
-              made.
+              that the user stores within the app. It also includes some security 
+              measures such as an account system so that only those who know the 
+              username and password can access the information relating to them. 
+              The database also has security features such as SQL injection input 
+              sanitization and password hashing so that the user's sensitive information 
+              isn't kept inside the database, only a hash of their password.
             </p>
-            <div className="flex flex-row gap-16 justify-center">
+            <div className="flex flex-row flex-wrap gap-16 justify-center">
               <Image
                 className="rounded-[20px] shadow-md"
                 src="/resume-website/vacation-planner-login.jpg"
