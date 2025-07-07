@@ -19,7 +19,7 @@ export const metadata = {
 
 function Header() {
   return (
-    <header className="p-8 bg-linear-to-b from-zinc-600 to-gray-800">
+    <header className="p-8 bg-linear-to-b from-gray-600 to-gray-700">
       <div>
         <h1 className="my-8 mb-16 font-bold text-6xl text-white mx-4 italic">
           Nathan's Clubhouse

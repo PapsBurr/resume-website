@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <>
-      <div className="container-comp bg-gradient-to-r from-slate-300 via-slate-400 to-slate-300 min-h-screen">
+      <div className="container-comp bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 min-h-screen">
         <div></div>
         <main className="flex-auto flex-col justify-between p-32 bg-gray-100 text-black">
           <div>
