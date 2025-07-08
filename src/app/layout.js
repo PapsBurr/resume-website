@@ -30,23 +30,23 @@ function Header() {
           <div>
             <Link 
             href="/" 
-            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-300 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">Home</Link>
+            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-500 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">Home</Link>
           </div>
           <div>
             <Link 
             href="/websites" 
-            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-300 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">Websites</Link>
+            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-500 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">Websites</Link>
           </div>
           <div>
             <Link 
             href="/android" 
-            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-300 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">Android</Link>
+            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-500 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">Android</Link>
           </div>
           <div>
             <a 
             href="https://github.com/PapsBurr" 
             target="_blank"
-            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-300 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">GitHub</a>
+            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-500 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">GitHub</a>
           </div>
         </nav>
       </div>
