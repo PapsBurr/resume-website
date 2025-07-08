@@ -68,6 +68,16 @@ hr {
 @media only screen and (min-width: 1200px) {
   .container-comp {
     display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "header header header"
+      ". main .";
+  }    
+}
+@media only screen and (min-width: 1800px) {
+  .container-comp {
+    display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: auto auto auto;
     grid-template-areas:
@@ -75,5 +85,4 @@ hr {
       ". main .";
   }    
 }
-
 
