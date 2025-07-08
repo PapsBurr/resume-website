@@ -19,34 +19,34 @@ export const metadata = {
 
 function Header() {
   return (
-    <header className="p-8 bg-linear-to-b from-gray-700 to-gray-800">
+    <header className="p-8 pb-4 bg-linear-to-b from-gray-700 to-gray-800">
       <div>
         <h1 className="my-8 mb-16 font-bold text-6xl text-white mx-4 italic">
           Nathan's Clubhouse
-          </h1>
+        </h1>
       </div>
       <div>
-        <nav className="flex justify-start">
-          <div>
+        <nav className="flex flex-wrap justify-start">
+          <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
             <Link 
-            href="/" 
-            className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md select-none">Home</Link>
+            href="/"
+            className="inline-block p-4 px-16">Home</Link>
           </div>
-          <div>
+          <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
             <Link 
-            href="/websites" 
-            className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md select-none">Websites</Link>
+            href="/websites"
+            className="inline-block p-4 px-16">Websites</Link>
           </div>
-          <div>
+          <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
             <Link 
-            href="/android" 
-            className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md select-none">Android</Link>
+            href="/android"
+            className="inline-block p-4 px-16">Android</Link>
           </div>
-          <div>
+          <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
             <a 
             href="https://github.com/PapsBurr" 
             target="_blank"
-            className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md select-none">GitHub</a>
+            className="inline-block p-4 px-16">GitHub</a>
           </div>
         </nav>
       </div>

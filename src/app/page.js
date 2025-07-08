@@ -2,6 +2,32 @@
 
 import Image from "next/image";
 
+const skills = [
+  { id: 1, text: "Programming"},
+  { id: 2, text: "Science"},
+  { id: 3, text: "Learning"},
+  { id: 4, text: "Art"},
+  { id: 5, text: "Aerospace"},
+  { id: 6, text: "Puzzles/Problem Solving"},
+  { id: 7, text: "Strategy"}
+]
+
+const pgrmLanguages = [
+  { id: 1, text: "Java"},
+  { id: 2, text: "Python"},
+  { id: 3, text: "JavaScript"},
+  { id: 4, text: "TypeScript"},
+  { id: 5, text: "MySQL"},
+  { id: 6, text: "PostgeSQL"},
+  { id: 7, text: "HTML"},
+  { id: 8, text: "CSS"},
+  { id: 9, text: "UML"},
+]
+
+function ListItems(props) {
+  return <li>{props.text}</li>
+}
+
 export default function Home() {
   return (
     <>
@@ -45,25 +71,15 @@ export default function Home() {
             </ul>
             <h3>Skills / Hobbies / Interests</h3>
             <ul className="list-disc m-8 text-xl">
-              <li>Programming</li>
-              <li>Science</li>
-              <li>Learning</li>
-              <li>Art (Drawing / Painting / Designing)</li>
-              <li>Aerospace</li>
-              <li>Puzzle/Problem Solving</li>
-              <li>Strategy</li>
+              {skills.map((item) => (
+                <ListItems key={item.id} text={item.text} />
+              ))}
             </ul>
             <h3>Programming Languages</h3>
             <ul className="list-disc m-8 text-xl">
-              <li>Java</li>
-              <li>Python</li>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-              <li>MySQL</li>
-              <li>PostgreSQL</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>UML</li>
+              {pgrmLanguages.map((item) => (
+                <ListItems key={item.id} text={item.text} />
+              ))}
             </ul>
             <hr></hr>
           </div>
