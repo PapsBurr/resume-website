@@ -19,7 +19,7 @@ export const metadata = {
 
 function Header() {
   return (
-    <header className="p-8 bg-linear-to-b from-gray-600 to-gray-700">
+    <header className="p-8 bg-linear-to-b from-gray-700 to-gray-800">
       <div>
         <h1 className="my-8 mb-16 font-bold text-6xl text-white mx-4 italic">
           Nathan's Clubhouse
@@ -30,23 +30,23 @@ function Header() {
           <div>
             <Link 
             href="/" 
-            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-500 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">Home</Link>
+            className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md select-none">Home</Link>
           </div>
           <div>
             <Link 
             href="/websites" 
-            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-500 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">Websites</Link>
+            className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md select-none">Websites</Link>
           </div>
           <div>
             <Link 
             href="/android" 
-            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-500 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">Android</Link>
+            className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md select-none">Android</Link>
           </div>
           <div>
             <a 
             href="https://github.com/PapsBurr" 
             target="_blank"
-            className="bg-linear-to-b from-gray-600 to-gray-800 hover:from-gray-500 to hover:gray-600 active:gray-sky-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md">GitHub</a>
+            className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold p-4 mx-4 px-16 rounded-md select-none">GitHub</a>
           </div>
         </nav>
       </div>
