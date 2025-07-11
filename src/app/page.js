@@ -128,11 +128,12 @@ export default function Home() {
           <div>
             <h2>This Site</h2>
             <p>
-              Built with JavaScript using Next.js, HTML, and Tailwind CSS. It is
-              currently only viewable on browser and is not optimized for phones. 
-              Also, I'm sure I made a bunch of grammatical errors
-              throughout the site. I'm trying to make this fast and as
-              professional I can, but still fast.
+              Built with JavaScript using React, HTML, and Tailwind CSS. It 
+              automatically deploys the website using GitHub Actions whenever 
+              I commit and push to the repository. 
+              I'm currently trying to get this website connected to a backend 
+              and then deployed on the cloud using Docker, Kubernetes, Jenkins, 
+              and AWS.
             </p>
             <hr></hr>
           </div>
