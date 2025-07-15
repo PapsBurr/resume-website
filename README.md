@@ -1,4 +1,4 @@
 # Resume Website
 This is my website. It talks a bit about me, the projects I've made, and my qualifications
 
-You can view the website right now at : https://papsburr.github.io/resume-website/websites
+You can view the website right now at : https://papsburr.github.io/resume-website/
