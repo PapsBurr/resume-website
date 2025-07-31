@@ -42,11 +42,9 @@ export default function Home() {
             <p>
               Hi! My name is Nathan Pons and this is a website I made as a
               summary of my qualifications and projects I've made throughout the
-              years (especially throughout my Software Engineering degree). I
-              am, as of writing this, 25 years old and have been working with
-              tech essentially throughout all of my life. I have a lot of
-              experience programming and working with a variety of programs like
-              unity, photoshop, blender, and a dozen other things I'm forgetting.
+              years and throughout my Software Engineering degree. On this website
+              I go over some of those projects and talk about their features and the 
+              tools I used to create them. I hope you enjoy. 
             </p>
             <hr></hr>
           </div>
@@ -96,8 +94,7 @@ export default function Home() {
               want it.
             </p>
             <p>
-              It's also something I enjoy so I'm going to show a couple
-              things I've made:
+              It's also something I enjoy, here are some of my favorites:
             </p>
             <h3 className="text-center">
               Griffin, Digital, ~2021
