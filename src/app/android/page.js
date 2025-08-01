@@ -1,6 +1,4 @@
-"use client";
-
-import Image from "next/image";
+import RoundedImage from "../components/RoundedImage";
 
 export default function Page() {
   return (
@@ -35,22 +33,19 @@ export default function Page() {
               isn't kept inside the database, only a hash of their password.
             </p>
             <div className="flex flex-row flex-wrap gap-16 justify-center">
-              <Image
-                className="rounded-[20px] shadow-md"
+              <RoundedImage
                 src="/resume-website/vacation-planner-login.jpg"
                 alt="An image of the vacation planner log in screen."
                 width={250}
                 height={500}
               />
-              <Image
-                className="rounded-[20px] shadow-md"
+              <RoundedImage
                 src="/resume-website/vacation-planner-main.jpg"
                 alt="An image of the vacation planner main screen"
                 width={250}
                 height={500}
                />
-               <Image
-                className="rounded-[20px] shadow-md"
+               <RoundedImage
                 src="/resume-website/vacation-planner-details.jpg"
                 alt="An image of the vacation planner details screen"
                 width={250}
@@ -74,8 +69,7 @@ export default function Page() {
               all the tiles.
             </p>
             <div className="flex justify-center">
-              <Image
-                className="rounded-[20px] shadow-md"
+              <RoundedImage
                 src="/resume-website/lights-out.jpg"
                 alt="An image of the lights out game"
                 width={250}
@@ -98,8 +92,7 @@ export default function Page() {
               running it will only show a button that says start.
             </p>
             <div className="flex justify-center">
-              <Image
-                className="rounded-[20px] shadow-md"
+              <RoundedImage
                 src="/resume-website/timer.jpg"
                 alt="An image of the timer app"
                 width={250}

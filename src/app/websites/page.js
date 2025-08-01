@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import RoundedImage from "../components/RoundedImage";
 
 export default function Page() {
   return (
@@ -23,8 +23,7 @@ export default function Page() {
               This was a massive project for me and has a lot of bells and whistles. 
             </p>
             <div className="flex gap-16 justify-center">
-              <Image
-                className="rounded-[20px] shadow-md/40"
+              <RoundedImage
                 src="/resume-website/ecommerce-full.jpg"
                 alt="An image of the ecommerce website."
                 width={1000}
@@ -37,8 +36,7 @@ export default function Page() {
               the screen will show no items and display a message saying nothing is available. 
             </p>
             <div className="flex gap-16 justify-center">
-              <Image
-                className="rounded-[20px] shadow-md/40"
+              <RoundedImage
                 src="/resume-website/ecommerce-empty.png"
                 alt="An image of the ecommerce website."
                 width={1000}
@@ -52,8 +50,7 @@ export default function Page() {
               even remove the item entirely.
             </p>
             <div className="flex gap-16 justify-center">
-              <Image
-                className="rounded-[20px] shadow-md/40"
+              <RoundedImage
                 src="/resume-website/ecommerce-cart.jpg"
                 alt="An image of the ecommerce website."
                 width={1000}
@@ -69,8 +66,7 @@ export default function Page() {
               to prevent the need of typing it all again.
             </p>
             <div className="flex gap-16 justify-center">
-              <Image
-                className="rounded-[20px] shadow-md/40"
+              <RoundedImage
                 src="/resume-website/ecommerce-checkout.jpg"
                 alt="An image of the ecommerce website."
                 width={1000}
@@ -82,8 +78,7 @@ export default function Page() {
               will prevent you from moving on.
             </p>
             <div className="flex gap-16 justify-center">
-              <Image
-                className="rounded-[20px] shadow-md/40"
+              <RoundedImage
                 src="/resume-website/ecommerce-validation.jpg"
                 alt="An image of the ecommerce website."
                 width={1000}
@@ -106,8 +101,7 @@ export default function Page() {
               related countries info in the red box on the right.
             </p>
             <div className="flex gap-16 justify-center">
-              <Image
-                className="rounded-[20px] shadow-md/40"
+              <RoundedImage
                 src="/resume-website/world-map-api.jpg"
                 alt="An image of the world map api website."
                 width={1000}
@@ -126,8 +120,7 @@ export default function Page() {
               purely to show that multithreading is working. 
             </p>
             <div className="flex gap-16 justify-center">
-              <Image
-                className="rounded-[20px] shadow-md/40"
+              <RoundedImage
                 src="/resume-website/reservation-hotel-threads.jpg"
                 alt="An image of the reservation hotel website."
                 width={1000}
@@ -143,8 +136,7 @@ export default function Page() {
               actual price, just adds the correct symbol). 
             </p>
             <div className="flex gap-16 justify-center">
-              <Image
-                className="rounded-[20px] shadow-md/40"
+              <RoundedImage
                 src="/resume-website/reservation-hotel-reservations.jpg"
                 alt="An image of the reservation hotel website."
                 width={1000}

@@ -1,6 +1,4 @@
-"use client";
-
-import Image from "next/image";
+import RoundedImage from "./components/RoundedImage";
 
 const skills = [
   { id: 1, text: "Programming"},
@@ -100,10 +98,9 @@ export default function Home() {
               Griffin, Digital, ~2021
             </h3>
             <div className="flex gap-16 justify-center my-8">
-              <Image
-                className="rounded-[20px] shadow-md/40"
+              <RoundedImage
                 src="/resume-website/digital-griffin.jpg"
-                alt="An image of the reservation hotel website."
+                alt="An image of a digital painting of a portrait of a blue griffin."
                 width={500}
                 height={500}
               />
@@ -112,10 +109,9 @@ export default function Home() {
               Flower with Dew, Oil paint, ~2020
             </h3>
             <div className="flex gap-16 justify-center my-8">
-              <Image
-                className="rounded-[20px] shadow-md/40"
+              <RoundedImage
                 src="/resume-website/painting-flower.jpg"
-                alt="An image of the reservation hotel website."
+                alt="An image of an oil painting of a orange flower with a few drops of dew on the petals."
                 width={500}
                 height={500}
               />
