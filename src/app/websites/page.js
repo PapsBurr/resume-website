@@ -24,7 +24,7 @@ export default function Page() {
             </p>
             <div className="flex gap-16 justify-center">
               <RoundedImage
-                src="/resume-website/ecommerce-full.jpg"
+                src="/ecommerce-full.jpg"
                 alt="An image of the ecommerce website."
                 width={1000}
                 height={500}
@@ -37,7 +37,7 @@ export default function Page() {
             </p>
             <div className="flex gap-16 justify-center">
               <RoundedImage
-                src="/resume-website/ecommerce-empty.png"
+                src="/ecommerce-empty.png"
                 alt="An image of the ecommerce website."
                 width={1000}
                 height={500}
@@ -51,7 +51,7 @@ export default function Page() {
             </p>
             <div className="flex gap-16 justify-center">
               <RoundedImage
-                src="/resume-website/ecommerce-cart.jpg"
+                src="/ecommerce-cart.jpg"
                 alt="An image of the ecommerce website."
                 width={1000}
                 height={500}
@@ -67,7 +67,7 @@ export default function Page() {
             </p>
             <div className="flex gap-16 justify-center">
               <RoundedImage
-                src="/resume-website/ecommerce-checkout.jpg"
+                src="/ecommerce-checkout.jpg"
                 alt="An image of the ecommerce website."
                 width={1000}
                 height={500}
@@ -79,7 +79,7 @@ export default function Page() {
             </p>
             <div className="flex gap-16 justify-center">
               <RoundedImage
-                src="/resume-website/ecommerce-validation.jpg"
+                src="/ecommerce-validation.jpg"
                 alt="An image of the ecommerce website."
                 width={1000}
                 height={500}
@@ -102,7 +102,7 @@ export default function Page() {
             </p>
             <div className="flex gap-16 justify-center">
               <RoundedImage
-                src="/resume-website/world-map-api.jpg"
+                src="/world-map-api.jpg"
                 alt="An image of the world map api website."
                 width={1000}
                 height={500}
@@ -121,7 +121,7 @@ export default function Page() {
             </p>
             <div className="flex gap-16 justify-center">
               <RoundedImage
-                src="/resume-website/reservation-hotel-threads.jpg"
+                src="/reservation-hotel-threads.jpg"
                 alt="An image of the reservation hotel website."
                 width={1000}
                 height={500}
@@ -137,7 +137,7 @@ export default function Page() {
             </p>
             <div className="flex gap-16 justify-center">
               <RoundedImage
-                src="/resume-website/reservation-hotel-reservations.jpg"
+                src="/reservation-hotel-reservations.jpg"
                 alt="An image of the reservation hotel website."
                 width={1000}
                 height={500}

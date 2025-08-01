@@ -34,19 +34,19 @@ export default function Page() {
             </p>
             <div className="flex flex-row flex-wrap gap-16 justify-center">
               <RoundedImage
-                src="/resume-website/vacation-planner-login.jpg"
+                src="/vacation-planner-login.jpg"
                 alt="An image of the vacation planner log in screen."
                 width={250}
                 height={500}
               />
               <RoundedImage
-                src="/resume-website/vacation-planner-main.jpg"
+                src="/vacation-planner-main.jpg"
                 alt="An image of the vacation planner main screen"
                 width={250}
                 height={500}
                />
                <RoundedImage
-                src="/resume-website/vacation-planner-details.jpg"
+                src="/vacation-planner-details.jpg"
                 alt="An image of the vacation planner details screen"
                 width={250}
                 height={500}
@@ -70,7 +70,7 @@ export default function Page() {
             </p>
             <div className="flex justify-center">
               <RoundedImage
-                src="/resume-website/lights-out.jpg"
+                src="/lights-out.jpg"
                 alt="An image of the lights out game"
                 width={250}
                 height={500}
@@ -93,7 +93,7 @@ export default function Page() {
             </p>
             <div className="flex justify-center">
               <RoundedImage
-                src="/resume-website/timer.jpg"
+                src="/timer.jpg"
                 alt="An image of the timer app"
                 width={250}
                 height={500}

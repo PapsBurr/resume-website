@@ -99,7 +99,7 @@ export default function Home() {
             </h3>
             <div className="flex gap-16 justify-center my-8">
               <RoundedImage
-                src="/resume-website/digital-griffin.jpg"
+                src="/digital-griffin.jpg"
                 alt="An image of a digital painting of a portrait of a blue griffin."
                 width={500}
                 height={500}
@@ -110,7 +110,7 @@ export default function Home() {
             </h3>
             <div className="flex gap-16 justify-center my-8">
               <RoundedImage
-                src="/resume-website/painting-flower.jpg"
+                src="/painting-flower.jpg"
                 alt="An image of an oil painting of a orange flower with a few drops of dew on the petals."
                 width={500}
                 height={500}
