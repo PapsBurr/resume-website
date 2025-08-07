@@ -66,13 +66,13 @@ export default function Home() {
               <li>Coursera Google IT Support</li>
             </ul>
             <h3>Skills / Hobbies / Interests</h3>
-            <ul className="list-disc m-8 text-xl">
+            <ul className="list-disc m-8 text-xl" aria-label="Skills List">
               {skills.map((item) => (
                 <ListItems key={item.id} text={item.text} />
               ))}
             </ul>
             <h3>Programming Languages</h3>
-            <ul className="list-disc m-8 text-xl">
+            <ul className="list-disc m-8 text-xl" aria-label="Programming Languages List">
               {pgrmLanguages.map((item) => (
                 <ListItems key={item.id} text={item.text} />
               ))}
