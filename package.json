@@ -9,7 +9,8 @@
     "deploy": "next build && next export && gh-pages -d out",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "next": "15.3.3",
