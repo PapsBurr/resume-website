@@ -32,7 +32,7 @@ export default function Page() {
               sanitization and password hashing so that the user's sensitive information 
               isn't kept inside the database, only a hash of their password.
             </p>
-            <div className="flex flex-row flex-wrap gap-16 justify-center">
+            <div className="flex flex-row flex-wrap gap-16 justify-center" >
               <RoundedImage
                 src="/vacation-planner-login.jpg"
                 alt="An image of the vacation planner log in screen."

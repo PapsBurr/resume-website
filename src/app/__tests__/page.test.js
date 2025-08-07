@@ -36,13 +36,13 @@ describe('Home Page', () => {
 
   it('renders skills list', () => {
     render(<Page />);
-    const skillsList = screen.getByRole('list', { name: /Skills List/i });
+    const skillsList = screen.getByTestId('skills-list');
     expect(skillsList).toBeInTheDocument();
   });
 
   it('renders programming languages list', () => {
     render(<Page />);
-    const languagesList = screen.getByRole('list', { name: /Programming Languages List/i });
+    const languagesList = screen.getByTestId('programming-languages-list');
     expect(languagesList).toBeInTheDocument();
   });
 });
