@@ -60,10 +60,10 @@ export default function Home() {
             </div>
             <h3>Certifications</h3>
             <ul className="list-disc m-8 text-xl">
-              <li>AWS Certified Cloud Practitioner</li>
-              <li>CompTIA Project +</li>
-              <li>Axelos ITIL Foundations</li>
-              <li>Coursera Google IT Support</li>
+              <li data-testid="cert-item">AWS Certified Cloud Practitioner</li>
+              <li data-testid="cert-item">CompTIA Project +</li>
+              <li data-testid="cert-item">Axelos ITIL Foundations</li>
+              <li data-testid="cert-item">Coursera Google IT Support</li>
             </ul>
             <h3>Skills / Hobbies / Interests</h3>
             <ul className="list-disc m-8 text-xl" aria-label="Skills List">

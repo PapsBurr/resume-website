@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Page from '../src/app/page';
+import Page from '../page';
 
 describe('Home Page', () => {
-  it('renders the main heading', () => {
+  it('renders my name on the page', () => {
     render(<Page />);
     const myName = screen.getByRole('heading', { name: /Nathan Pons/i });
     expect(myName).toBeInTheDocument();
@@ -21,10 +21,17 @@ describe('Home Page', () => {
     expect(aboutMe).toBeInTheDocument();
   });
 
-  it('renders qualifications section', () => {
+  it('renders qualifications heading', () => {
     render(<Page />);
     const qualifications = screen.getByRole('heading', { name: /Qualifications/i });
     expect(qualifications).toBeInTheDocument();
+  });
+
+  it('renders the correct number of certification list items', () => {
+    render(<Page />);
+    const certifications = screen.getAllByTestId('cert-item');
+    expect(certifications.length).toBe(4);
+    expect(certifications[0]).toHaveTextContent('AWS Certified Cloud Practitioner');
   });
 
   it('renders skills list', () => {
