@@ -7,7 +7,7 @@ export default function Page() {
     <>
       <div className="container-comp bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 min-h-screen">
         <div></div>
-        <main className="flex-auto flex-col justify-between p-24 bg-gray-100 text-black">
+        <main className="flex-auto flex-col justify-between py-24 px-4 md:px-12 lg:px-24 bg-gray-100 text-black">
           <div>
             <h1>Websites</h1>
             <p>Here are some of the websites I've made.</p>

@@ -31,7 +31,7 @@ export default function Home() {
     <>
       <div className="container-comp bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 min-h-screen">
         <div></div>
-        <main className="flex-auto flex-col justify-between p-24 bg-gray-100 text-black">
+        <main className="flex-auto flex-col justify-between py-24 px-4 md:px-12 lg:px-24 bg-gray-100 text-black">
           <div>
             <h1 className="text-center">Nathan Pons</h1>
             <h1 className="text-center m-6">Software Engineer</h1>
