@@ -29,7 +29,14 @@ const LightsOut = () => {
     setBoard(createBoard());
   }, []);
 
-  if (!board) return null; // or a loading spinner
+  if (!board) {
+    return (
+      <div className="flex justify-center items-center h-40">
+        <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-gray-900"></div>
+        <span className="ml-4 text-gray-600">Loading...</span>
+      </div>
+    )
+  };
 
   const isWin = board.every(row => row.every(cell => !cell));
 
