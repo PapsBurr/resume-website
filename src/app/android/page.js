@@ -1,4 +1,5 @@
 import RoundedImage from "../components/RoundedImage";
+import LightsOut from "../components/LightsOut";
 
 export default function Page() {
   return (
@@ -80,6 +81,9 @@ export default function Page() {
               It has different navigation options on the bottom that can help you learn the games rules 
               or change the color of the tiles.
             </p>
+            <div>
+              <LightsOut />
+            </div>
             <hr></hr>
           </div>
           <div>
