@@ -2,7 +2,7 @@
 const isProd = process.env.NODE_ENV === "production"
 
 const nextConfig = {
-  basePath: isProd ? "/resume-website" : "",
+  basePath: isProd ? "" : "",
   output: "export",
   distDir: "out",
   images: {
