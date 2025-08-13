@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function Header() {
+export default function Header() {
   return (
     <header className="p-8 pb-4 bg-linear-to-b from-gray-700 to-gray-800">
       <div>
