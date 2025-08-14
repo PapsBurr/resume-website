@@ -59,25 +59,19 @@ export default function Header() {
             <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
               <Link
                 href="/"
-                className="inline-block p-4 px-16"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Home
-              </Link>
+                className="block p-4 px-16"
+                onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
             </div>
             <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
               <Link
                 href="/websites"
-                className="inline-block p-4 px-16"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Websites
-              </Link>
+                className="block p-4 px-16"
+                onClick={() => setIsMobileMenuOpen(false)}>Websites</Link>
             </div>
             <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
               <Link
                 href="/android"
-                className="inline-block p-4 px-16"
+                className="block p-4 px-16"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Android
@@ -87,7 +81,7 @@ export default function Header() {
               <a
                 href="https://github.com/PapsBurr"
                 target="_blank"
-                className="inline-block p-4 px-16"
+                className="block p-4 px-16"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 GitHub
