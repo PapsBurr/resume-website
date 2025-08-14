@@ -6,9 +6,9 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="p-8 pb-4 bg-linear-to-b from-gray-700 to-gray-800">
+    <header className="p-5 pb-2 bg-gradient-to-b from-gray-700 to-gray-800">
       <div className="flex justify-between items-center">
-        <h1 className="my-8 mb-16 font-bold text-6xl text-white mx-4 italic">
+        <h1 className="font-sans font-extrabold tracking-normal my-8 mb-16 text-6xl text-white mx-4" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8), 0 0 10px rgba(255,255,255,0.3)'}}>
           Nathan's Clubhouse
         </h1>
 
@@ -30,45 +30,45 @@ export default function Header() {
       <div>
         {/* Desktop Navigation */}
         <nav className="hidden md:flex flex-wrap justify-start">
-          <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
+          <div className="bg-gradient-to-b from-gray-700 via-gray-800 via-20% to-gray-900 hover:from-gray-600 hover:via-gray-700 hover:via-20% hover:to-gray-900 active:from-gray-900 active:via-50% active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
             <Link 
             href="/"
-            className="inline-block p-4 px-16">Home</Link>
+            className="block p-3 px-16">Home</Link>
           </div>
-          <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
+          <div className="bg-gradient-to-b from-gray-700 via-gray-800 via-20% to-gray-900 hover:from-gray-600 hover:via-gray-700 hover:via-20% hover:to-gray-900 active:from-gray-900 active:via-50% active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
             <Link 
             href="/websites"
-            className="inline-block p-4 px-16">Websites</Link>
+            className="block p-3 px-16">Websites</Link>
           </div>
-          <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
+          <div className="bg-gradient-to-b from-gray-700 via-gray-800 via-20% to-gray-900 hover:from-gray-600 hover:via-gray-700 hover:via-20% hover:to-gray-900 active:from-gray-900 active:via-50% active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
             <Link 
             href="/android"
-            className="inline-block p-4 px-16">Android</Link>
+            className="block p-3 px-16">Android</Link>
           </div>
-          <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
+          <div className="bg-gradient-to-b from-gray-700 via-gray-800 via-20% to-gray-900 hover:from-gray-600 hover:via-gray-700 hover:via-20% hover:to-gray-900 active:from-gray-900 active:via-50% active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
             <a 
             href="https://github.com/PapsBurr" 
             target="_blank"
-            className="inline-block p-4 px-16">GitHub</a>
+            className="block p-3 px-16">GitHub</a>
           </div>
         </nav>
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <nav className="md:hidden mt-4">
-            <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
+            <div className="bg-gradient-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
               <Link
                 href="/"
                 className="block p-4 px-16"
                 onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
             </div>
-            <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
+            <div className="bg-gradient-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
               <Link
                 href="/websites"
                 className="block p-4 px-16"
                 onClick={() => setIsMobileMenuOpen(false)}>Websites</Link>
             </div>
-            <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
+            <div className="bg-gradient-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
               <Link
                 href="/android"
                 className="block p-4 px-16"
@@ -77,7 +77,7 @@ export default function Header() {
                 Android
               </Link>
             </div>
-            <div className="bg-linear-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
+            <div className="bg-gradient-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
               <a
                 href="https://github.com/PapsBurr"
                 target="_blank"
