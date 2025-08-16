@@ -14,6 +14,7 @@ export default function Header() {
 
         <button
           className="md:hidden text-white focus:outline-none"
+          type="button"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label="Toggle hamburger menu"
         >
@@ -59,27 +60,28 @@ export default function Header() {
             <div className="bg-gradient-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
               <Link
                 href="/"
+                aria-label="Home Link - Mobile"
                 className="block p-4 px-16"
                 onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
             </div>
             <div className="bg-gradient-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
               <Link
                 href="/websites"
+                aria-label="Websites Link - Mobile"
                 className="block p-4 px-16"
                 onClick={() => setIsMobileMenuOpen(false)}>Websites</Link>
             </div>
             <div className="bg-gradient-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
               <Link
                 href="/android"
+                aria-label="Android Link - Mobile"
                 className="block p-4 px-16"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Android
-              </Link>
+                onClick={() => setIsMobileMenuOpen(false)}>Android</Link>
             </div>
             <div className="bg-gradient-to-b from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-900 active:from-gray-900 active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
               <a
                 href="https://github.com/PapsBurr"
+                aria-label="GitHub Link - Mobile"
                 target="_blank"
                 className="block p-4 px-16"
                 onClick={() => setIsMobileMenuOpen(false)}
