@@ -45,4 +45,18 @@ describe('Home Page', () => {
     const languagesList = screen.getByTestId('programming-languages-list');
     expect(languagesList).toBeInTheDocument();
   });
+
+  it('renders correct number of skills', () => {
+    render(<Page />);
+    const skillsList = screen.getByTestId('skills-list');
+    const skillItems = skillsList.querySelectorAll('li');
+    expect(skillItems.length).toBe(7); // Should match skills array length
+  });
+
+  it('renders correct number of programming languages', () => {
+    render(<Page />);
+    const languagesList = screen.getByTestId('programming-languages-list');
+    const languageItems = languagesList.querySelectorAll('li');
+    expect(languageItems.length).toBe(9); // Should match pgrmLanguages array length
+  });
 });
