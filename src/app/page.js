@@ -32,11 +32,12 @@ export default function Home() {
       <div className="container-comp bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 min-h-screen">
         <div></div>
         <main className="flex-auto flex-col justify-between py-24 px-4 md:px-12 lg:px-24 bg-gray-100 text-black">
-          <div>
-            <h1 className="text-center">Nathan Pons</h1>
-            <h1 className="text-center m-6">Software Engineer</h1>
+          
+          {/* Intro Section */}
+          <div className="fade-trigger">
+            <h1 className="text-center">Nathan Pons <span className="block">Software Engineer</span></h1>
             <hr></hr>
-            <h1>About Me</h1>
+            <h2>About Me</h2>
             <p>
               Hi! My name is Nathan Pons and this is a website I made as a
               summary of my qualifications and projects I've made throughout the
@@ -46,40 +47,54 @@ export default function Home() {
             </p>
             <hr></hr>
           </div>
-          <div>
+
+          {/* Qualifications Section */}
+          <section className="fade-trigger">
             <h2>Qualifications</h2>
-            <h3>Western Governors University</h3>
-            <div className="grid grid-cols-2">
-              <p className="underline">B.S. Software Engineering</p>
-              <p className="justify-end text-right">May, 2025</p>
+            <div className="fade-trigger">
+              <h3>Western Governors University</h3>
+              <div className="grid grid-cols-2">
+                <p className="underline">B.S. Software Engineering</p>
+                <p className="justify-end text-right">May, 2025</p>
+              </div>
             </div>
-            <h3>Utah State Board of Education</h3>
-            <div className="grid grid-cols-2">
-              <p className="underline">GED - High school diploma</p>
-              <p className="justify-end text-right">Dec, 2022</p>
+            <div className="fade-trigger">
+              <h3>Utah State Board of Education</h3>
+              <div className="grid grid-cols-2">
+                <p className="underline">GED - High school diploma</p>
+                <p className="justify-end text-right">Dec, 2022</p>
+              </div>
             </div>
-            <h3>Certifications</h3>
-            <ul className="list-disc m-8 text-xl">
-              <li data-testid="cert-item">AWS Certified Cloud Practitioner</li>
-              <li data-testid="cert-item">CompTIA Project +</li>
-              <li data-testid="cert-item">Axelos ITIL Foundations</li>
-              <li data-testid="cert-item">Coursera Google IT Support</li>
-            </ul>
-            <h3>Skills / Hobbies / Interests</h3>
-            <ul className="list-disc m-8 text-xl" data-testid="skills-list">
-              {skills.map((item) => (
-                <ListItems key={item.id} text={item.text} />
-              ))}
-            </ul>
-            <h3>Programming Languages</h3>
-            <ul className="list-disc m-8 text-xl" data-testid="programming-languages-list">
-              {pgrmLanguages.map((item) => (
-                <ListItems key={item.id} text={item.text} />
-              ))}
-            </ul>
+            <div className="fade-trigger">
+              <h3>Certifications</h3>
+              <ul className="list-disc m-8 text-xl">
+                <li data-testid="cert-item">AWS Certified Cloud Practitioner</li>
+                <li data-testid="cert-item">CompTIA Project +</li>
+                <li data-testid="cert-item">Axelos ITIL Foundations</li>
+                <li data-testid="cert-item">Coursera Google IT Support</li>
+              </ul>
+            </div>
+            <div className="fade-trigger">  
+              <h3>Skills / Hobbies / Interests</h3>
+              <ul className="list-disc m-8 text-xl" data-testid="skills-list">
+                {skills.map((item) => (
+                  <ListItems key={item.id} text={item.text} />
+                ))}
+              </ul>
+            </div>
+            <div className="fade-trigger">
+              <h3>Programming Languages</h3>
+              <ul className="list-disc m-8 text-xl" data-testid="programming-languages-list">
+                {pgrmLanguages.map((item) => (
+                  <ListItems key={item.id} text={item.text} />
+                ))}
+              </ul>
+            </div>
             <hr></hr>
-          </div>
-          <div>
+          </section>
+
+          {/* Art Section */}
+          <section className="fade-trigger">
             <h2>Art</h2>
             <p>
               Art is something I've spent a lot of time doing and I feel it is
@@ -117,8 +132,10 @@ export default function Home() {
               />
             </div>
             <hr></hr>
-          </div>
-          <div>
+          </section> 
+
+          {/* This Site Section */}
+          <section className="fade-trigger">
             <h2>This Site</h2>
             <p>
               Built with JavaScript using React, HTML, and Tailwind CSS. It 
@@ -129,7 +146,7 @@ export default function Home() {
               and AWS.
             </p>
             <hr></hr>
-          </div>
+          </section>
         </main>
       </div>
     </>

@@ -7,15 +7,19 @@ export default function Page() {
       <div className="container-comp bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 min-h-screen">
         <div></div>
         <main className="flex-auto flex-col justify-between py-24 px-4 md:px-12 lg:px-24 bg-gray-100 text-black">
-          <div>
+          
+          {/* Opening Section */}
+          <section className="fade-trigger">
             <h1>Android apps</h1>
             <p>
               Here are some of the apps I have made throughout my degree. They
               were all made using Java in Android Studio.
             </p>
             <hr></hr>
-          </div>
-          <div>
+          </section>
+
+          {/* Vacation Planner App Section */}
+          <section className="fade-trigger">
             <h2>Vacation Planner App</h2>
             <p>
               Features a fullstack app. Uses a SQLite database with Java. Includes data validation, 
@@ -59,8 +63,10 @@ export default function Page() {
               The vacations can also be shared through SMS and email through the top menu.
             </p>
             <hr></hr>
-          </div>
-          <div>
+          </section>
+
+          { /* Lights out Section */ }
+          <section className="fade-trigger">
             <h2>Lights out</h2>
             <p>
               This is the app I made to practice Android development. It's a simple game where if you 
@@ -85,8 +91,10 @@ export default function Page() {
               <LightsOut />
             </div>
             <hr></hr>
-          </div>
-          <div>
+          </section>
+
+          { /* Timer App Section */ }
+          <section className="fade-trigger">
             <h2>Timer app</h2>
             <p>
               Below is an app that I made to act as a timer for your phone. The timer can be set using the scrollers 
@@ -104,12 +112,14 @@ export default function Page() {
               />
             </div>
             <hr></hr>
-            <h2>Plenty More!</h2>
-            <p>
-              There are a ton more projects I've done on Android and I'm not going to put them all here. 
-              The rest can be found on my GitHub linked at the top of the page.
-            </p>
-          </div>
+            <div className="fade-trigger">  
+              <h2>Plenty More!</h2>
+              <p>
+                There are a ton more projects I've done on Android and I'm not going to put them all here. 
+                The rest can be found on my GitHub linked at the top of the page.
+              </p>
+            </div>
+          </section>
         </main>
       </div>
     </>

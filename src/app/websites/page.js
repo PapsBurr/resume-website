@@ -8,12 +8,16 @@ export default function Page() {
       <div className="container-comp bg-gradient-to-r from-slate-100 via-slate-200 to-slate-100 min-h-screen">
         <div></div>
         <main className="flex-auto flex-col justify-between py-24 px-4 md:px-12 lg:px-24 bg-gray-100 text-black">
-          <div>
+
+          { /* Websites Title Section */ }
+          <section className="fade-trigger">
             <h1>Websites</h1>
             <p>Here are some of the websites I've made.</p>
             <hr></hr>
-          </div>
-          <div>
+          </section>
+
+          { /* Ecommerce Fullstack Section */ }
+          <section className="fade-trigger">
             <h2>Ecommerce Fullstack</h2>
             <p>
               Features Angular front-end, Springboot back-end, MySQL Database, search functionality, 
@@ -90,8 +94,10 @@ export default function Page() {
                 using UUID and saved within the database.
               </p>
             <hr></hr>
-          </div>
-          <div>
+          </section>
+
+          { /* World Map API Section */ }
+          <section className="fade-trigger">
             <h2>World Map API</h2>
             <p>Features TypeScript with Angular and API usage.</p>
             <p>
@@ -109,8 +115,10 @@ export default function Page() {
               />
             </div>
             <hr></hr>
-          </div>
-          <div>
+          </section>
+
+          { /* Hotel Reservation Section */ }
+          <section className="fade-trigger">
             <h2>Hotel Reservation FullStack</h2>
             <p>Features multithreading and a dockerfile.</p>
             <p>
@@ -147,7 +155,7 @@ export default function Page() {
               The last thing I did with this project is deploy it using Docker and AWS.
             </p>
             <hr></hr>
-          </div>
+          </section>
         </main>
       </div>
     </>
