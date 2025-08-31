@@ -66,7 +66,7 @@ hr {
   transition: none;
 }
 
-.js .fade-trigger.animate-fade-in-right {
+.js .fade-trigger.animate-fade-in-below {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;

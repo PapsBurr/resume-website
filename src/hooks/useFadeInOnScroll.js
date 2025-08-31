@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 export function useFadeInOnScroll(options = {}) {
   const containerRef = useRef(null);
   const pathname = usePathname();
-  const { threshold = 0.1, className = 'animate-fade-in-right' } = options;
+  const { threshold = 0.1, className = 'animate-fade-in-below' } = options;
   
   useEffect(() => {
     document.body.classList.add('js');
