@@ -84,4 +84,19 @@ describe('LightsOut Component', () => {
       expect(button.className.includes('w-10 h-10 m-1 rounded border border-gray-500 transition-colors duration-100')).toBe(true);
     });
   });
+
+  it('renders the grid size slider', () => {
+    render(<LightsOut />);
+
+    act(() => {
+      screen.getByRole('button', { name: /Show Game/i }).click();
+    });
+
+    const slider = screen.getByLabelText(/Grid Size:/i);
+    expect(slider).toBeInTheDocument();
+    expect(slider).toHaveAttribute('type', 'range');
+    expect(slider).toHaveAttribute('min', '3');
+    expect(slider).toHaveAttribute('max', '9');
+    expect(slider).toHaveClass('slider');
+  });
 });
