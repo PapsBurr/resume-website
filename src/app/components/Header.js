@@ -43,6 +43,11 @@ export default function Header() {
           </div>
           <div className="bg-gradient-to-b from-gray-700 via-gray-800 via-20% to-gray-900 hover:from-gray-600 hover:via-gray-700 hover:via-20% hover:to-gray-900 active:from-gray-900 active:via-50% active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
             <Link 
+            href="/devops"
+            className="block p-3 px-16">DevOps</Link>
+          </div>
+          <div className="bg-gradient-to-b from-gray-700 via-gray-800 via-20% to-gray-900 hover:from-gray-600 hover:via-gray-700 hover:via-20% hover:to-gray-900 active:from-gray-900 active:via-50% active:to-gray-800 text-white font-bold m-4 rounded-md select-none">
+            <Link 
             href="/android"
             className="block p-3 px-16">Android</Link>
           </div>

@@ -1,5 +1,3 @@
-"use client";
-
 import RoundedImage from "../components/RoundedImage";
 
 export default function Page() {
