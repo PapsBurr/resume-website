@@ -91,7 +91,7 @@ export default function Page() {
           <section className="fade-trigger">
             <h2>Docker</h2>
             <p>
-              TO BE ADDED WHEN I HAVE TIME
+              I will add my exprience with Docker here soon.
             </p>
             <hr></hr>
           </section>
@@ -100,7 +100,7 @@ export default function Page() {
           <section className="fade-trigger">
             <h2>Kubernetes</h2>
             <p>
-              TO BE ADDED WHEN I HAVE TIME
+              I will add my exprience with Kubernetes here soon.
             </p>
             <hr></hr>
           </section>
@@ -109,7 +109,7 @@ export default function Page() {
           <section className="fade-trigger">
             <h2>AWS</h2>
             <p>
-              TO BE ADDED WHEN I HAVE TIME
+              I will add my exprience with AWS here soon.
             </p>
             <hr></hr>
           </section>
